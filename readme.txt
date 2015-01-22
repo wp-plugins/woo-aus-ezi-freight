@@ -1,5 +1,5 @@
 === Woo Aus EZi Freight ===
-Contributors: renoirIII
+Contributors: EZiHosting
 Donate link: http://www.ezihosting.com/woocommerce-australian-freight-extension/
 Tags: WooCommerce, freight, Australia
 Requires at least: 3.8
@@ -35,33 +35,41 @@ Go to the WooCommerce -> Settings -> Shipping -> Woo Aus EZi Freight
 You are then ready to customise the plugin
 
 == Frequently Asked Questions ==
-Q: What does this plugin do?
+Q: What does this WooCommerce Freight Extension do?
 
 A: It calculates the cheapest freight for your customers based on the weight and size of the combined products in their shopping cart.
 
-Q: Do you need WooCommerce installed for this plugin to work?
+Q: Do you need WooCommerce installed for this WooCommerce Freight Extension to work?
 
 A: Yes.
 
-Q: Will this work for carts located outside Australia?
+Q: Will this WooCommerce Freight Extension work for carts located outside Australia?
 
-A: No. The Woo Aus EZi Freight plugin is specifically developed for Australian based businesses. However, the freight can be send worldwide.
+A: No. The WooCommerce Freight Extension is specifically developed for Australian based businesses. However, the freight can be send worldwide.
 
-Q: Why is this plugin better than the Australian post plugin
+Q: Why is the WooCommerce Freight Extension better than the Australian Post plugin
 
-A: The Australian Post plugin is great but it only uses services from 1 supplier; Australian Post. Woo Aus EZi Freight on the other hand uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This means your customers pay less for freight.
+A: The Australian Post plugin is great but it only uses services from 1 supplier; Australian Post (no surprises there…). The WooCommerce Freight Extension on the other hand was commissioned by a prominent Australian eCommerce business with only one thing in mind; don’t maximise Aus Post’s profits but reduce my customers freight charges! So we did… WooCommerce Freight Extension uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This simply means your customers will pay less for freight.
 
 Q: Is Woo Aus EZi Freight fully customisable?
 
-A: Yes. There are lots of variables you can customise such as unlimited types of boxes, tax rates, the \"Freight Method Title\" so you can brand your freight, additional packaging days, additional handling cost, maximum shipping services limit to display and much more...
+A: Yes. There are lots of variables you can customise such as unlimited types of boxes, tax rates, the “Freight Method Title” so you can brand your freight, additional packaging days, additional handling cost, maximum shipping services limit to display and much more…
 
 Q: Do I need to open any accounts?
 
-A: Yes. To take full advantage of Woo Aus EZi Freight, you need to open an account with Australian Click and Send (FREE) and InterParcel (FREE).
+A: Yes. To take full advantage of the WooCommerce Freight Extension, you need to open an account with Australian Click and Send (FREE) and InterParcel (FREE).
+
+Q: What is the difference between the free version of WooCommerce Freight Extension and the paid version?
+
+A: First, there is no difference in functionality. The only difference is that the free version will display a little link in your client’s shopping cart saying: “This plugin is not Licensed, please visit EZiHosting to active your plugin!“. Annoying, I know but we put a lot of effort into developing this extension and we like to recover some of the cost we incurred. Also, the Free trial version of the WooCommerce Freight Extension doesn’t come with any updates or support. So please don’t delay and obtain your license key and activate it so together we can eliminate world poverty…and InterParcel (FREE).
 
 == Screenshots ==
-1. Box Packing options
-2. Let your customers pick
+1. Lots of customisation.
+2. Fully integrates with Woo.
+3. Display only the cheapest option to keep the cart clutter free, or 
+4. Display a variety of options in your cart so your customers can pick their favourite courier company even if it is not the cheapest.
+5. Direct links to Aus Post Click & Send and InterParcel account signup pages (both are free to join).
+6. Box packing; add as many different sizes as you like. Pre-set to minimise cost.
 
 == Changelog ==
 Version 1.0 - Origional release
