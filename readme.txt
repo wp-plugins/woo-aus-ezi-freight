@@ -1,5 +1,5 @@
 === Woo Aus EZi Freight ===
-Contributors: EZiHosting
+Contributors: renoirIII, EZiHosting, Pu Lingling 
 Donate link: http://www.ezihosting.com/woocommerce-australian-freight-extension/
 Tags: WooCommerce, freight, Australia
 Requires at least: 3.8
@@ -33,6 +33,8 @@ Upload the Woo Aus EZi Freight folder to the /wp-content/plugins/ directory
 Activate the plugin through the \'Plugins\' menu in WordPress
 Go to the WooCommerce -> Settings -> Shipping -> Woo Aus EZi Freight
 You are then ready to customise the plugin
+
+`[youtube http://youtu.be/TcunvJuuik4]`
 
 == Frequently Asked Questions ==
 Q: What does this WooCommerce Freight Extension do?
