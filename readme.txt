@@ -47,13 +47,13 @@ Q: Will this WooCommerce Freight Extension work for carts located outside Austra
 
 A: No. The WooCommerce Freight Extension is specifically developed for Australian based businesses. However, the freight can be send worldwide.
 
-Q: Why is the WooCommerce Freight Extension better than the Australian Post plugin
+Q: Why is the WooCommerce Freight Extension better than the Australian Post plugin?
 
-A: The Australian Post plugin is great but it only uses services from 1 supplier &#8211; Australian Post (no surprises there…). The WooCommerce Freight Extension on the other hand was commissioned by a prominent Australian eCommerce business with only one thing in mind; don’t maximise Aus Post’s profits but reduce my customers freight charges! So we did… WooCommerce Freight Extension uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This simply means your customers will pay less for freight.
+A: The Australian Post plugin is great but it only uses services from 1 supplier &#8211; Australian Post (no surprises there). The WooCommerce Freight Extension on the other hand was commissioned by a prominent Australian eCommerce business with only one thing in mind; don&#39;t maximise Aus Post&#39;s profits but reduce my customers freight charges! So we did. WooCommerce Freight Extension uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This simply means your customers will pay less for freight.
 
 Q: Is Woo Aus EZi Freight fully customisable?
 
-A: Yes. There are lots of variables you can customise such as unlimited types of boxes, tax rates, the “Freight Method Title” so you can brand your freight, additional packaging days, additional handling cost, maximum shipping services limit to display and much more…
+A: Yes. There are lots of variables you can customise such as unlimited types of boxes, tax rates, the &#8220;Freight Method Title&#8221; so you can brand your freight, additional packaging days, additional handling cost, maximum shipping services limit to display and much more.
 
 Q: Do I need to open any accounts?
 
@@ -61,7 +61,7 @@ A: Yes. To take full advantage of the WooCommerce Freight Extension, you need to
 
 Q: What is the difference between the free version of WooCommerce Freight Extension and the paid version?
 
-A: First, there is no difference in functionality. The only difference is that the free version will display a little link in your client’s shopping cart saying: “This plugin is not Licensed, please visit EZiHosting to active your plugin!“. Annoying, I know but we put a lot of effort into developing this extension and we like to recover some of the cost we incurred. Also, the Free trial version of the WooCommerce Freight Extension doesn’t come with any updates or support. So please don’t delay and obtain your license key and activate it so together we can eliminate world poverty…and InterParcel (FREE).
+A: First, there is no difference in functionality. The only difference is that the free version will display a little link in your client&#39;s shopping cart saying: &#8220;This plugin is not Licensed, please visit EZiHosting to active your plugin!&#8221;. Annoying, I know but we put a lot of effort into developing this extension and we like to recover some of the cost we incurred. Also, the Free trial version of the WooCommerce Freight Extension doesn&#39;t come with any updates or support. So please don&#39;t delay and obtain your license key and activate it so together we can eliminate world poverty.
 
 == Screenshots ==
 1. Lots of customisation.
