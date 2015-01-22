@@ -1,5 +1,5 @@
 === Woo Aus EZi Freight ===
-Contributors: renoirIII, EZiHosting, Pu Lingling 
+Contributors: renoirIII, Pu Lingling 
 Donate link: http://www.ezihosting.com/woocommerce-australian-freight-extension/
 Tags: WooCommerce, freight, Australia
 Requires at least: 3.8
