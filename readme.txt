@@ -49,7 +49,7 @@ A: No. The WooCommerce Freight Extension is specifically developed for Australia
 
 Q: Why is the WooCommerce Freight Extension better than the Australian Post plugin
 
-A: The Australian Post plugin is great but it only uses services from 1 supplier; Australian Post (no surprises there…). The WooCommerce Freight Extension on the other hand was commissioned by a prominent Australian eCommerce business with only one thing in mind; don’t maximise Aus Post’s profits but reduce my customers freight charges! So we did… WooCommerce Freight Extension uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This simply means your customers will pay less for freight.
+A: The Australian Post plugin is great but it only uses services from 1 supplier &#8211; Australian Post (no surprises there…). The WooCommerce Freight Extension on the other hand was commissioned by a prominent Australian eCommerce business with only one thing in mind; don’t maximise Aus Post’s profits but reduce my customers freight charges! So we did… WooCommerce Freight Extension uses Australian Post as well as a range of well known courier companies to find the cheapest freight quote in Australia. This simply means your customers will pay less for freight.
 
 Q: Is Woo Aus EZi Freight fully customisable?
 
