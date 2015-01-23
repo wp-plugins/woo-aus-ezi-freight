@@ -16,8 +16,10 @@ With Woo Aus EZi Freight, you simply unleash the power of box packing so your cl
 This is how it works:
 Based on the product shipping data, the extension determines the accumulative weight of all goods in the shopping cart.
 It then calculated the total volume of all the goods in the cart.
-
 From there, it picks the smallest sachet or box that is able to contain all items so your clients receive the most economical freight possible.
+
+But that is just the start, it then queries dozens of Australian courier companies who will quote for the job in real-time.
+Your customer then simply picks the courier company they like best.
 
 Features and Benefits
 
