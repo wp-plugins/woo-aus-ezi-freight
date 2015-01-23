@@ -19,6 +19,26 @@ It then calculated the total volume of all the goods in the cart.
 
 From there, it picks the smallest sachet or box that is able to contain all items so your clients receive the most economical freight possible.
 
+Features and Benefits
+
+*   Uses sophisticated API links to receive instant quotes from all the main courier companies in Australia.
+*   Let your customer pick the courier they like based on brand, price or the inclusion of freight insurance.
+*   Seamlessly integrated with WooCommerce. 
+*   Puts your customers in charge.
+*   Gives your customers confidence that they get the cheapest deal.
+
+Configurations
+
+*   Configure you freight to Box Packing, Total Weight or Individual Items.
+*   Create your own parcels configuration for box packing with custom dimensions and maximum weights.
+*   Set your own title and shipping method so you can brand your shipping.
+*   Lock in your own post code from where the parcels are being picked up from.
+*   Assign you own custom tax rate (standard 10% GST)
+*   Set additional handling days to calculate final estimated delivery date. (Ie, 1 day for packing)
+*   Set additional handling cost to determine the final cost to your customers. (because you can)
+*   Set number of options to display for your customers ranging from cheapest to all
+*   Works in with other shipping methods such as free pick-up or local delivery
+
 == Installation ==
 The quickest method for installing Woo Aus EZi Freight is:
 In WordPress back-end Visit Plugins -> Add New -> Search for \"Woo Aus EZi Freight\"
