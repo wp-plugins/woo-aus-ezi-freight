@@ -41,8 +41,8 @@ function efw_freight_activation() {
 }
 
 function efw_freight_create_table() {
-	global $wpdb, $table_prefix;
-	$table_name = $table_prefix.'ezihosting_freight_tick_boxes';
+	global $wpdb;
+	$table_name = $wpdb->prefix.'ezihosting_freight_tick_boxes';
 	if($wpdb->get_var("show tables like '$table_name'") != $table_name){
 		$sql = 'CREATE TABLE IF NOT EXISTS `'.$table_name.'` (
 			`id` int(11) NOT NULL AUTO_INCREMENT,
@@ -59,6 +59,42 @@ function efw_freight_create_table() {
 			) ENGINE=InnoDB DEFAULT CHARSET=utf8;';
 		require_once(ABSPATH . 'wp-admin/upgrade-functions.php');
 		dbDelta($sql);
+
+		$default_boxes = array(
+			array(
+				'name' => '500 g satchet', 'weight' => 0.01, 'length' => 7,
+				'width' => 30, 'height' => 15, 'max_weight' => 0.5,
+				'flat_rate' => 1, 'rate' => 7.23, 'is_deleted' => 0,
+			),
+			array(
+				'name' => '3 kg satchet', 'weight' => 0.01, 'length' => 9,
+				'width' => 35, 'height' => 20, 'max_weight' => 3,
+				'flat_rate' => 1, 'rate' => 12.68, 'is_deleted' => 0,
+			),
+			array(
+				'name' => '5 kg satchet', 'weight' => 0.01, 'length' => 12,
+				'width' => 45, 'height' => 33, 'max_weight' => 5,
+				'flat_rate' => 1, 'rate' => 14.5, 'is_deleted' => 0,
+			),
+			array(
+				'name' => 'Small Box', 'weight' => 0.1, 'length' => 30.5,
+				'width' => 43, 'height' => 14, 'max_weight' => 10.1,
+				'flat_rate' => 0, 'rate' => 0, 'is_deleted' => 0,
+			),
+			array(
+				'name' => 'Medium Box', 'weight' => 0.2, 'length' => 30.5,
+				'width' => 43, 'height' => 28, 'max_weight' => 20.3,
+				'flat_rate' => 0, 'rate' => 0, 'is_deleted' => 0,
+			),
+			array(
+				'name' => 'Large Box', 'weight' => 0.3, 'length' => 30.5,
+				'width' => 43, 'height' => 42, 'max_weight' => 30.3,
+				'flat_rate' => 0, 'rate' => 0, 'is_deleted' => 0,
+			),
+		);
+
+		foreach($default_boxes as $d)
+			$wpdb->insert($table_name , $d);
 	}
 }
 

@@ -146,14 +146,14 @@
 		<th scope="row" class="titledesc">
 			<label for="efw_interparcel_username">Interparcel username</label>
 			<td class="forminp forminp-text">
-				<input name="efw_config[efw_interparcel_username]" id="efw_interparcel_username" type="text" style="width:200px;" value="<?php echo $config->efw_interparcel_username ?>" class="" />
+				<input name="efw_config[efw_interparcel_username]" id="efw_interparcel_username" type="text" style="width:200px;" value="<?php echo $config->efw_interparcel_username ?>" class="" autocomplete="off" />
 			</td>
 	</tr>
 	<tr valign="top">
 		<th scope="row" class="titledesc">
 			<label for="efw_interparcel_password">Interparcel password</label>
 			<td class="forminp forminp-text">
-				<input name="efw_config[efw_interparcel_password]" id="efw_interparcel_password" type="password" style="width:200px;" value="<?php echo $config->efw_interparcel_password ?>" class="" />
+				<input name="efw_config[efw_interparcel_password]" id="efw_interparcel_password" type="password" style="width:200px;" value="<?php echo $config->efw_interparcel_password ?>" class="" autocomplete="off" />
 			</td>
 	</tr>
 	<tr valign="top">
@@ -171,7 +171,7 @@
 <br />
 <br />
 
-<h2><?php echo __( 'Box Packing.', 'ezihosting_wc' ) ?><a href="javascript:;" class="add-new-h2" id="efw-add-boxes">Add box</a></h2>
+<h2><?php echo __( 'Box Packing.', 'ezihosting_wc' ) ?><a href="javascript:;" class="add-new-h2" id="efw-add-boxes">Add parcel</a></h2>
 <hr />
 <style>
 	#efw-boxes-form .form-table th {
@@ -238,7 +238,7 @@
 		</tr>
 
 		<tr valign="top" class="">
-			<th scope="row" class="titledesc">Flat rate(ex GST)</th>
+			<th scope="row" class="titledesc">Flat rate (ex GST)</th>
 			<td class="forminp forminp-text">
 				<input type="checkbox" value="1" name="efx_box_flat_rate" style="width: 16px;" />
 				<input name="efx_box_rate" id="efw_box_rate" type="text" placeholder="rate" class="" style="display: none" />

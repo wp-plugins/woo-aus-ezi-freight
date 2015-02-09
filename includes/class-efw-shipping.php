@@ -61,9 +61,9 @@ class EFWShipping extends WC_Shipping_Method {
 	public function calculate_shipping( $package ) {
 		$valid_license = EFWHelper::validLicense($this->config->efw_license_key);
 		if($valid_license !== true) {
-			$valid_tip = 'This plugin is not Licensed, please visit <a href="http://www.ezihosting.com/woocommerce-australian-freight-extension/">EZiHosting</a> to active your plugin!<br />';
-			wc_add_notice( $valid_tip , 'error' );
-			$this->debug_info("License valid error message: {$valid_license}<br />", 'error');
+			$valid_tip = 'Woo Aus EZi Freight trial version! Please visit  <a href="http://www.ezihosting.com/woocommerce-australian-freight-extension/">EZiHosting</a> to obtain your license. Licensed plugins won’t have this message plus you will receive 1 year priority support and free updates.<br />';
+			wc_add_notice( $valid_tip , 'notice' );
+			$this->debug_info("License valid error message: {$valid_license}<br />", 'notice');
 		}
 
 

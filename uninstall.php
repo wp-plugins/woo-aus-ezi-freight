@@ -9,7 +9,7 @@ function efw_delete_plugin() {
 	delete_option( 'ezihosting_freight_config' );
 
 
-	$table_name = $wpdb->prefix . "ezihosting_freight_tick_boxes1";
+	$table_name = $wpdb->prefix . "ezihosting_freight_tick_boxes";
 
 	$wpdb->query( "DROP TABLE IF EXISTS {$table_name}" );
 }
