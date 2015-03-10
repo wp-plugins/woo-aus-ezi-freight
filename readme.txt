@@ -96,7 +96,9 @@ A: First, there is no difference in functionality. The only difference is that t
 6. Box packing; add as many different sizes as you like. Pre-set to minimise cost.
 
 == Changelog ==
-Version 1.0 - Origional release
+Version 0.0.1 - Original release
+
+Version 0.0.2 - change some txt tip
 
 == Upgrade Notice ==
 You can have an advert free version of Woo Aus EZi Freight by visiting the following webpage:

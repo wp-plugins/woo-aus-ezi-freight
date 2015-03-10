@@ -35,7 +35,7 @@
 				<?php if(!$config->efw_license_key || EFWHelper::validLicense($config->efw_license_key) !== true) :?>
 				<br />
 				<p style="color: #ff3635">
-					Our free Woo Aus EZi Freight plugin is there for you to try it out. There will be an annoying message in your customer’s cart encouraging you to Go Pro. Going Pro will get rid of this message and activates 12 months support and free updates. You can <a href="http://www.ezihosting.com/woocommerce-australian-freight-extension/" target="_blank">Go Pro here</a>.
+					Our free Woo Aus EZi Freight plugin is there for you to try it out.<br /> There will be an annoying message in your customer’s cart encouraging you to Go Pro. Going Pro will get rid of this message and activates 12 months support and free updates. You can <a href="http://www.ezihosting.com/woocommerce-australian-freight-extension/" target="_blank">Go Pro here</a>.
 				</p>
 				<?php endif;?>
 			</td>

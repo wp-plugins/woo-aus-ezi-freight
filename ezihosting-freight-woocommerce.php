@@ -2,7 +2,7 @@
 /*
 Plugin Name: Australian EZi Freight
 Plugin URI: http://www.ezihosting.com/woocommerce-australian-freight-extension/
-Version: 0.0.1
+Version: 0.0.2
 Author: EZIHOSTING
 Author URI: http://www.ezihosting.com.au/
 Description: AusFreight, a great extension for WooCommerce that takes advantage of the lightweight Australian Post “Click & Send” flat rate sachets and combines this with the power of InterParcel’s brokerage strength for larger parcels. In the end, your customers will safe big bucks on their freight costs!
