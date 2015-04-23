@@ -100,6 +100,8 @@ Version 0.0.1 - Original release
 
 Version 0.0.2 - change some txt tip
 
+Version 1.0 - update postcode to city logic
+
 == Upgrade Notice ==
 You can have an advert free version of Woo Aus EZi Freight by visiting the following webpage:
 http://www.ezihosting.com/woocommerce-australian-freight-extension/

@@ -139,47 +139,12 @@ class EFWHelper {
 		if(!$country)
 			return '';
 
-		$country = strtolower($country);
+		$cities = json_decode(file_get_contents(EFW_PLUGIN_DIR."/includes/au.postcode"));
 
-		$cached_city  = get_transient( 'efw_cached_city_by_postcode' );
-		if(!$cached_city)
-			$cached_city = array();
+		if(!$cities->$post_code)
+			throw new EFWException('get city by postcode failed.');
 
-
-		$city_key = $country.'_'.$post_code;
-		if(isset($cached_city[$city_key]))
-			return $cached_city[$city_key];
-
-		$url = "https://www.interparcel.com.au/api/json/address-lookup.php?country=Australia&address={$post_code}";
-		$ch	= curl_init();
-		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 5.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1');
-		curl_setopt ($ch, CURLOPT_URL, trim($url));
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-		$contents = curl_exec($ch);
-
-		curl_close($ch);
-		if(!$contents)
-			throw new EFWException('get city by postcode from interparcel api failed.');
-
-		$contents = trim($contents);
-		$contents = trim($contents, ';');
-		$contents = trim($contents, ')');
-		$contents = trim($contents, '(');
-
-		$response = json_decode($contents);
-
-		if($response && $response->total) {
-			$city = $response->results[0]->city;
-
-			if($city) {
-				$cached_city[$city_key] = $city;
-				set_transient( 'efw_cached_city_by_postcode', $cached_city, 86400 * 365 );
-			}
-
-			return $city;
-		} else {
-			throw new EFWException('get city by postcode from interparcel api failed. response : '.$contents);
-		}
+		return $cities->$post_code;
 	}
 
 
