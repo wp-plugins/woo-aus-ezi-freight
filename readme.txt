@@ -102,6 +102,9 @@ Version 0.0.2 - change some txt tip
 
 Version 1.0.0 - update postcode to city logic
 
+Version 1.0.1 - Fix bug: When there is no product or some product has no weight attribute the plugin will throw an error to customer.
+
+
 == Upgrade Notice ==
 You can have an advert free version of Woo Aus EZi Freight by visiting the following webpage:
 http://www.ezihosting.com/woocommerce-australian-freight-extension/

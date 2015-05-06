@@ -62,6 +62,8 @@ class EFWHelper {
 	}
 
 	public static function get_au_rates($packages, $config, $destination) {
+		if(!is_array($packages) || count($packages) <= 0)
+			throw new EFWException('there is no package.');
 
 		if(!$config->efw_interparcel_username || !$config->efw_interparcel_password)
 			throw new EFWException('Interparcel username and password is required, please register at <a href="http://www.interparcel.com.au/">Interparcel</a> ');

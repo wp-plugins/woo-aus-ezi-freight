@@ -178,7 +178,7 @@ class EFWShipping extends WC_Shipping_Method {
 			}
 
 			if ( ! $v['data']->get_weight() ) {
-				$this->debug_info( sprintf( __( 'Product #%d do not have height attribute', 'ezihosting_wc' ), $k ), 'error' );
+				$this->debug_info( sprintf( __( 'Product #%d do not have weight attribute', 'ezihosting_wc' ), $k ), 'error' );
 				return;
 			}
 
